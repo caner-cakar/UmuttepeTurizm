@@ -1,0 +1,93 @@
+
+
+.koltuk-still{
+    background: rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center;
+    height: 100hv;
+    margin: 0;
+    font-size: 15px;
+}
+
+.koltuk_bilgi_alani{
+    padding-bottom: 20px;
+}
+
+.koltuk_bilgi_alani select{
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.koltuk{
+    
+    height: 30px;
+    width: 24px;
+    background-color:chartreuse;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.koltuk_gorseli{
+    display: flex;
+    padding-bottom: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.koltuk_gorseli li{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+.oturma_duzeni{
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    perspective: 400px;
+}
+
+.oturma_duzeni .on_cam{
+    height: 10px;
+    background-color: azure;
+    width: auto;
+    margin-bottom: 15px;
+    transform:rotateX(-30deg);
+}
+
+.siralar{
+    display: flex;
+}
+
+
+.koltuk:nth-of-type(1){
+    margin-right: 20px;
+}
+
+.koltuk.dolu{
+    background-color: red;
+}
+
+.koltuk.rezerve{
+    background-color: blue;
+}
+
+.koltuk.secilmis{
+    background-color: green;
+    color: white;
+}
+
+.oturma_duzeni .koltuk:not(.dolu):hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
