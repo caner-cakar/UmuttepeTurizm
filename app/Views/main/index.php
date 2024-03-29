@@ -326,7 +326,7 @@
 <!--#region scripts  -->
 
 	<script async
-    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGiy9PFr5HwCC4Wbkqqx5VQ4l4pArTgfY&loading=async&callback=initMap">
+    	src="https://maps.googleapis.com/maps/api/js?key=YourKey&loading=async&callback=initMap">
 	</script>
 	<script src="<?php echo base_url()?>js/jquery.min.js"></script>
 	<script src="<?php echo base_url()?>js/jquery.easing.1.3.js"></script>
